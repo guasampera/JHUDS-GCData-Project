@@ -22,8 +22,6 @@ labels <- read.table(file = "./UCI HAR Dataset/features.txt")
 
 
 
-
-
 #Subject and training type are added to the databases
 train <- cbind(train_subject,train_type,train_data)
 test <- cbind(test_subject,test_type,test_data)
