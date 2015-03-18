@@ -11,17 +11,17 @@ The code does:
 *From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-## Step 1 - Import data
+### Step 1 - Import data
 
-*read.table function is used to import all the different datasets provided into several R variables. label and traning name dictionary are also imported.
+* read.table function is used to import all the different datasets provided into several R variables. label and traning name dictionary are also imported.
 
 ## Step 2 - Combine subject, training and measurements
 
-*rbind function is used to merge the subject, training type and measurement datasets
+* rbind function is used to merge the subject, training type and measurement datasets
         *this is done for both the traininf and the testing groups, producing two main data frames: test and train
         
 
-## Step 3 - Combine datasets
+# Step 3 - Combine datasets
 
 *cbind function is used to combine the two main data frames: test and train, creating "data"
 
